@@ -22,6 +22,12 @@
 		4FF06CBF25A94B7300856093 /* SignupBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CBE25A94B7300856093 /* SignupBasicViewController.swift */; };
 		4FF06CC225A94C0400856093 /* SignupPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CC125A94C0400856093 /* SignupPlusViewController.swift */; };
 		4FF06CC625A9541800856093 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CC525A9541800856093 /* UserInfo.swift */; };
+		4FF06CCE25A9703500856093 /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CCD25A9703500856093 /* SampleTableViewController.swift */; };
+		4FF06CD125A9787E00856093 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CD025A9787E00856093 /* CustomTableViewCell.swift */; };
+		4FF06CD425A9830B00856093 /* CellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CD325A9830B00856093 /* CellDetailViewController.swift */; };
+		4FF06CD725A98B3000856093 /* JSONEncodeDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CD625A98B3000856093 /* JSONEncodeDecode.swift */; };
+		4FF06CDF25A9900600856093 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CDE25A9900600856093 /* Friend.swift */; };
+		4FF06CE225A993CC00856093 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF06CE125A993CC00856093 /* FriendListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,12 @@
 		4FF06CBE25A94B7300856093 /* SignupBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupBasicViewController.swift; sourceTree = "<group>"; };
 		4FF06CC125A94C0400856093 /* SignupPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPlusViewController.swift; sourceTree = "<group>"; };
 		4FF06CC525A9541800856093 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		4FF06CCD25A9703500856093 /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
+		4FF06CD025A9787E00856093 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4FF06CD325A9830B00856093 /* CellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetailViewController.swift; sourceTree = "<group>"; };
+		4FF06CD625A98B3000856093 /* JSONEncodeDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodeDecode.swift; sourceTree = "<group>"; };
+		4FF06CDE25A9900600856093 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		4FF06CE125A993CC00856093 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +86,9 @@
 		4F03EC2125A7F9C4006DE77C /* BoostCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4FF06CC825A96AFE00856093 /* 03_Practice */,
 				4FF06CB925A94B4E00856093 /* 02_SignupProject */,
-				4FF06CB725A94A9C00856093 /* Practice */,
+				4FF06CB725A94A9C00856093 /* 02_Practice */,
 				4F03EC2225A7F9C4006DE77C /* AppDelegate.swift */,
 				4F03EC2425A7F9C4006DE77C /* SceneDelegate.swift */,
 				4F03EC2625A7F9C4006DE77C /* ViewController.swift */,
@@ -87,7 +100,7 @@
 			path = BoostCourse;
 			sourceTree = "<group>";
 		};
-		4FF06CB725A94A9C00856093 /* Practice */ = {
+		4FF06CB725A94A9C00856093 /* 02_Practice */ = {
 			isa = PBXGroup;
 			children = (
 				4F1F01B825A8595200186C4F /* UserInformation.swift */,
@@ -96,7 +109,7 @@
 				4F1F01AE25A84C1D00186C4F /* ImagePickerViewController.swift */,
 				4F1F01BE25A865FA00186C4F /* TapGestureViewController.swift */,
 			);
-			path = Practice;
+			path = 02_Practice;
 			sourceTree = "<group>";
 		};
 		4FF06CB925A94B4E00856093 /* 02_SignupProject */ = {
@@ -108,6 +121,19 @@
 				4FF06CC525A9541800856093 /* UserInfo.swift */,
 			);
 			path = 02_SignupProject;
+			sourceTree = "<group>";
+		};
+		4FF06CC825A96AFE00856093 /* 03_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				4FF06CCD25A9703500856093 /* SampleTableViewController.swift */,
+				4FF06CD025A9787E00856093 /* CustomTableViewCell.swift */,
+				4FF06CD325A9830B00856093 /* CellDetailViewController.swift */,
+				4FF06CD625A98B3000856093 /* JSONEncodeDecode.swift */,
+				4FF06CDE25A9900600856093 /* Friend.swift */,
+				4FF06CE125A993CC00856093 /* FriendListViewController.swift */,
+			);
+			path = 03_Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF06CDF25A9900600856093 /* Friend.swift in Sources */,
 				4FF06CBB25A94B6500856093 /* LoginViewController.swift in Sources */,
+				4FF06CE225A993CC00856093 /* FriendListViewController.swift in Sources */,
+				4FF06CCE25A9703500856093 /* SampleTableViewController.swift in Sources */,
+				4FF06CD425A9830B00856093 /* CellDetailViewController.swift in Sources */,
 				4F03EC2725A7F9C4006DE77C /* ViewController.swift in Sources */,
 				4FF06CC225A94C0400856093 /* SignupPlusViewController.swift in Sources */,
 				4FF06CBF25A94B7300856093 /* SignupBasicViewController.swift in Sources */,
@@ -189,7 +219,9 @@
 				4F1F01BC25A85E0C00186C4F /* DatePickerViewController.swift in Sources */,
 				4F03EC2325A7F9C4006DE77C /* AppDelegate.swift in Sources */,
 				4F1F01BF25A865FA00186C4F /* TapGestureViewController.swift in Sources */,
+				4FF06CD125A9787E00856093 /* CustomTableViewCell.swift in Sources */,
 				4F1F01AF25A84C1D00186C4F /* ImagePickerViewController.swift in Sources */,
+				4FF06CD725A98B3000856093 /* JSONEncodeDecode.swift in Sources */,
 				4F03EC2525A7F9C4006DE77C /* SceneDelegate.swift in Sources */,
 				4F1F01B225A850C900186C4F /* MainViewController.swift in Sources */,
 			);

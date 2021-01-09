@@ -40,12 +40,16 @@ class SignupBasicViewController: UIViewController, UINavigationControllerDelegat
         imagePicker.delegate = self
         return imagePicker
     }()
-
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(selectImage))
+        
+        self.view.addGestureRecognizer(tapGesture)
+
         /*
-        if self.passwordTextField.text == self.checkPasswordTextField.text && textView.hasText {
+        if self.passswordTextField.text == self.checkPasswordTextField.text && textView.hasText {
             nextButton.isEnabled = true
             nextButton.setTitleColor(.blue, for: .normal)
         } else {
@@ -55,6 +59,10 @@ class SignupBasicViewController: UIViewController, UINavigationControllerDelegat
         */
         
         //nextButton.addTarget(self, action: #selector(TappedNextButton(_:)), for: .touchUpInside)
+    }
+
+    @objc func selectImage() {
+        self.present(imagePicker, animated: true, completion: nil)
     }
     
     /*

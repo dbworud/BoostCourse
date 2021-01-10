@@ -38,8 +38,8 @@ extension FriendListViewController: UITableViewDataSource {
         
         let friend = friends[indexPath.row]
         
-        cell.textLabel?.text = friend.name + "(\(friend.age))"
-        cell.detailTextLabel?.text = friend.addressInfo.city + ", " + friend.addressInfo.country
+        cell.textLabel?.text = friend.nameAndAge
+        cell.detailTextLabel?.text = friend.fullAddress
         
         return cell
     }

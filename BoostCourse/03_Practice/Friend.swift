@@ -22,5 +22,13 @@ struct Friend : Codable {
         let country: String
         let city: String
     }
+    
+    var nameAndAge: String {
+        return self.name + "\(self.age)"
+    }
+    
+    var fullAddress: String {
+        return self.addressInfo.city + ", " + self.addressInfo.country
+    }
  }
  

@@ -12,6 +12,8 @@ class WeatherViewModel {
     var countries: [Country] = []
     var cities: [City] = []
     
+    var country: Country?
+    
     // 1. decode Country
     func downloadCountry(completion: @escaping () -> Void) {
         guard let countryData = NSDataAsset(name: "countries") else { return }
@@ -28,8 +30,8 @@ class WeatherViewModel {
     }
     
     // 2. decode Cities
-    func downloadCity(completion: @escaping () -> Void) {
-        guard let cityData = NSDataAsset(name: "cities") else { return }
+    func downloadCity(name: String, completion: @escaping () -> Void) {
+        guard let cityData = NSDataAsset(name: name) else { return }
         
         do {
             cities = try JSONDecoder().decode([City].self, from: cityData.data)

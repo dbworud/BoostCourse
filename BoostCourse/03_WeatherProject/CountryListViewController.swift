@@ -21,19 +21,8 @@ class CountryListViewController: UIViewController {
             self.tableView.reloadData()
         }
         
-//
-//        guard let countryData = NSDataAsset(name: "countries") else { return }
-//
-//        do {
-//            countries = try JSONDecoder().decode([Country].self, from: countryData.data)
-//        } catch {
-//            print(error)
-//        }
-        
         tableView.delegate = self
         tableView.dataSource = self
-        
-//        tableView.reloadData()
 
     }
 
@@ -67,7 +56,7 @@ extension CountryListViewController : UITableViewDelegate, UITableViewDataSource
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? CityListViewController {
             
-            destination.cityName = viewModel.cities[tableView.indexPathForSelectedRow!.row]
+            destination.country = viewModel.countries[tableView.indexPathForSelectedRow!.row]
             
         }
     }

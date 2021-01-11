@@ -23,6 +23,10 @@
 		4F1F01B925A8595200186C4F /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F01B825A8595200186C4F /* UserInformation.swift */; };
 		4F1F01BC25A85E0C00186C4F /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F01BB25A85E0C00186C4F /* DatePickerViewController.swift */; };
 		4F1F01BF25A865FA00186C4F /* TapGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F01BE25A865FA00186C4F /* TapGestureViewController.swift */; };
+		4F2F5A8025AAC83D00B255D9 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F5A7F25AAC83D00B255D9 /* PhotoViewController.swift */; };
+		4F2F5A8525AAE03600B255D9 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F5A8425AAE03600B255D9 /* AsyncViewController.swift */; };
+		4F2F5A8825AAE6AC00B255D9 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F5A8725AAE6AC00B255D9 /* ScrollViewController.swift */; };
+		4F4017CE25ABE03700771526 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4017CD25ABE03700771526 /* CollectionViewController.swift */; };
 		4F6BD80A25A9CD8D0000FA33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BD80925A9CD8D0000FA33 /* Model.swift */; };
 		4F6BD80D25A9D0FB0000FA33 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BD80C25A9D0FB0000FA33 /* CountryListViewController.swift */; };
 		4F6BD81225A9D3760000FA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6BD81025A9D3760000FA33 /* Main.storyboard */; };
@@ -60,6 +64,10 @@
 		4F1F01B825A8595200186C4F /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		4F1F01BB25A85E0C00186C4F /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		4F1F01BE25A865FA00186C4F /* TapGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewController.swift; sourceTree = "<group>"; };
+		4F2F5A7F25AAC83D00B255D9 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		4F2F5A8425AAE03600B255D9 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		4F2F5A8725AAE6AC00B255D9 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		4F4017CD25ABE03700771526 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		4F6BD80925A9CD8D0000FA33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4F6BD80C25A9D0FB0000FA33 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
 		4F6BD81125A9D3760000FA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +116,7 @@
 		4F03EC2125A7F9C4006DE77C /* BoostCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4F2F5A7A25AAC6BE00B255D9 /* 04_Practice */,
 				4F6BD80825A9CCF90000FA33 /* 03_WeatherProject */,
 				4FF06CC825A96AFE00856093 /* 03_Practice */,
 				4FF06CB925A94B4E00856093 /* 02_SignupProject */,
@@ -121,6 +130,17 @@
 				4F6BD81025A9D3760000FA33 /* Main.storyboard */,
 			);
 			path = BoostCourse;
+			sourceTree = "<group>";
+		};
+		4F2F5A7A25AAC6BE00B255D9 /* 04_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F5A7F25AAC83D00B255D9 /* PhotoViewController.swift */,
+				4F2F5A8425AAE03600B255D9 /* AsyncViewController.swift */,
+				4F2F5A8725AAE6AC00B255D9 /* ScrollViewController.swift */,
+				4F4017CD25ABE03700771526 /* CollectionViewController.swift */,
+			);
+			path = 04_Practice;
 			sourceTree = "<group>";
 		};
 		4F6BD80825A9CCF90000FA33 /* 03_WeatherProject */ = {
@@ -250,6 +270,7 @@
 				4F0463B825AA868800C06B4D /* HeroListViewController.swift in Sources */,
 				4FF06CDF25A9900600856093 /* Friend.swift in Sources */,
 				4F6BD80D25A9D0FB0000FA33 /* CountryListViewController.swift in Sources */,
+				4F2F5A8825AAE6AC00B255D9 /* ScrollViewController.swift in Sources */,
 				4FF06CBB25A94B6500856093 /* LoginViewController.swift in Sources */,
 				4F0463C125AA891500C06B4D /* HeroViewModel.swift in Sources */,
 				4FF06CE225A993CC00856093 /* FriendListViewController.swift in Sources */,
@@ -258,6 +279,7 @@
 				4FF06CD425A9830B00856093 /* CellDetailViewController.swift in Sources */,
 				4F03EC2725A7F9C4006DE77C /* ViewController.swift in Sources */,
 				4FF06CC225A94C0400856093 /* SignupPlusViewController.swift in Sources */,
+				4F2F5A8525AAE03600B255D9 /* AsyncViewController.swift in Sources */,
 				4F6BD81F25A9DC240000FA33 /* CityCell.swift in Sources */,
 				4FF06CBF25A94B7300856093 /* SignupBasicViewController.swift in Sources */,
 				4F0463BB25AA869000C06B4D /* HeroDetailViewController.swift in Sources */,
@@ -266,6 +288,7 @@
 				4F1F01BC25A85E0C00186C4F /* DatePickerViewController.swift in Sources */,
 				4F03EC2325A7F9C4006DE77C /* AppDelegate.swift in Sources */,
 				4F6BD81C25A9D9630000FA33 /* CityListViewController.swift in Sources */,
+				4F4017CE25ABE03700771526 /* CollectionViewController.swift in Sources */,
 				4F1F01BF25A865FA00186C4F /* TapGestureViewController.swift in Sources */,
 				4FF06CD125A9787E00856093 /* CustomTableViewCell.swift in Sources */,
 				4F0463BE25AA882C00C06B4D /* HeroStats.swift in Sources */,
@@ -276,6 +299,7 @@
 				4F03EC2525A7F9C4006DE77C /* SceneDelegate.swift in Sources */,
 				4F1F01B225A850C900186C4F /* MainViewController.swift in Sources */,
 				4F6BD81525A9D4FC0000FA33 /* CountryCell.swift in Sources */,
+				4F2F5A8025AAC83D00B255D9 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

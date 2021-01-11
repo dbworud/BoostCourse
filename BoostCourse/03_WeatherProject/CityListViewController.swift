@@ -9,7 +9,7 @@ import UIKit
 
 class CityListViewController: UIViewController {
     
-    var cityName: City?
+    var country : Country?
     
 //    let viewModel = WeatherViewModel()
     
@@ -19,36 +19,31 @@ class CityListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        guard let cityData = NSDataAsset(name: "\(cityName)") else { return }
+
+        guard let cityData = NSDataAsset(name: "\(country!.assetName)") else { return }
         
         do {
-//            cityName = try JSONDecoder().decode(City.self, from: cityData.data)
             cities = try JSONDecoder().decode([City].self, from: cityData.data)
-        } catch {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+        catch {
             print(error)
         }
 
         tableView.delegate = self
         tableView.dataSource = self
-        
-        tableView.reloadData()
+    
     }
-    
-    
-    /*
-    override func viewWillAppear(_ animated: Bool) {
-        
-    }
-    */
-    
+
 }
 
 
 extension CityListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return cities.count
         return cities.count
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -70,7 +65,7 @@ extension CityListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue as? CityDetailViewController {
+        if let destination = segue.destination as? CityDetailViewController {
             destination.cities = cities[tableView.indexPathForSelectedRow!.row]
         }
     }

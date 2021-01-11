@@ -20,7 +20,7 @@ struct Country : Codable {
 
 struct City: Codable {
     let cityName: String
-    let state: stateImage
+    let state: State
     let celsius: Double
     let rainfallProbability: Int
     
@@ -30,8 +30,8 @@ struct City: Codable {
         case rainfallProbability = "rainfall_probability"
     }
     
-    var FarenheitText: String {
-        return "(\(celsius) * 9/5) + 32"
+    var FarenheitText: Double {
+        return celsius * 9/5 + 32
     }
     
     var temperatureText : String {
@@ -41,6 +41,7 @@ struct City: Codable {
     var rainfallProbabilityText: String {
         return "강수확률 \(rainfallProbability)%"
     }
+
 }
 
 
@@ -51,8 +52,7 @@ struct City: Codable {
  12: rainy
  13: snowy
  */
-
-enum stateImage : Int, Codable {
+enum State : Int, Codable {
     case sunny = 10
     case cloudy = 11
     case rainy = 12
@@ -66,6 +66,14 @@ enum stateImage : Int, Codable {
             case 13: return "snowy"
             default: return ""
         }
-        
+    }
+    
+    var stateText: String {
+        switch self{
+        case .sunny : return "맑음"
+        case .cloudy : return "흐림"
+        case .rainy : return  "비"
+        case .snowy : return  "눈"
+        }
     }
 }

@@ -18,6 +18,10 @@
 		4F0463C125AA891500C06B4D /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0463C025AA891500C06B4D /* HeroViewModel.swift */; };
 		4F0463C425AA919300C06B4D /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0463C325AA919300C06B4D /* CityDetailViewController.swift */; };
 		4F0463C725AA965A00C06B4D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0463C625AA965A00C06B4D /* WeatherViewModel.swift */; };
+		4F0A492825AD474A00EB6C3D /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A492725AD474A00EB6C3D /* AlertViewController.swift */; };
+		4F0A492B25AD558700EB6C3D /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A492A25AD558700EB6C3D /* NetworkingViewController.swift */; };
+		4F0A492E25AD567100EB6C3D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A492D25AD567100EB6C3D /* Student.swift */; };
+		4F0A493125AD5FFD00EB6C3D /* requestNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A493025AD5FFD00EB6C3D /* requestNotification.swift */; };
 		4F1F01AF25A84C1D00186C4F /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F01AE25A84C1D00186C4F /* ImagePickerViewController.swift */; };
 		4F1F01B225A850C900186C4F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F01B125A850C900186C4F /* MainViewController.swift */; };
 		4F1F01B925A8595200186C4F /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F01B825A8595200186C4F /* UserInformation.swift */; };
@@ -26,6 +30,8 @@
 		4F2F5A8025AAC83D00B255D9 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F5A7F25AAC83D00B255D9 /* PhotoViewController.swift */; };
 		4F2F5A8525AAE03600B255D9 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F5A8425AAE03600B255D9 /* AsyncViewController.swift */; };
 		4F2F5A8825AAE6AC00B255D9 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F5A8725AAE6AC00B255D9 /* ScrollViewController.swift */; };
+		4F33102625ABF41D003FFA19 /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33102525ABF41D003FFA19 /* AlbumCollectionViewController.swift */; };
+		4F33102925ABF4B5003FFA19 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F33102825ABF4B5003FFA19 /* PhotoCollectionViewCell.swift */; };
 		4F4017CE25ABE03700771526 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4017CD25ABE03700771526 /* CollectionViewController.swift */; };
 		4F6BD80A25A9CD8D0000FA33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BD80925A9CD8D0000FA33 /* Model.swift */; };
 		4F6BD80D25A9D0FB0000FA33 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BD80C25A9D0FB0000FA33 /* CountryListViewController.swift */; };
@@ -59,6 +65,10 @@
 		4F0463C025AA891500C06B4D /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
 		4F0463C325AA919300C06B4D /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		4F0463C625AA965A00C06B4D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		4F0A492725AD474A00EB6C3D /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		4F0A492A25AD558700EB6C3D /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		4F0A492D25AD567100EB6C3D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4F0A493025AD5FFD00EB6C3D /* requestNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestNotification.swift; sourceTree = "<group>"; };
 		4F1F01AE25A84C1D00186C4F /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		4F1F01B125A850C900186C4F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4F1F01B825A8595200186C4F /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 		4F2F5A7F25AAC83D00B255D9 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		4F2F5A8425AAE03600B255D9 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
 		4F2F5A8725AAE6AC00B255D9 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		4F33102525ABF41D003FFA19 /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		4F33102825ABF4B5003FFA19 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		4F4017CD25ABE03700771526 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		4F6BD80925A9CD8D0000FA33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4F6BD80C25A9D0FB0000FA33 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
@@ -116,20 +128,40 @@
 		4F03EC2125A7F9C4006DE77C /* BoostCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4F0A492625AD469B00EB6C3D /* 05_Practice */,
 				4F2F5A7A25AAC6BE00B255D9 /* 04_Practice */,
 				4F6BD80825A9CCF90000FA33 /* 03_WeatherProject */,
 				4FF06CC825A96AFE00856093 /* 03_Practice */,
 				4FF06CB925A94B4E00856093 /* 02_SignupProject */,
 				4FF06CB725A94A9C00856093 /* 02_Practice */,
+				4F0A492425AD3A8700EB6C3D /* 01_Practice */,
 				4F03EC2225A7F9C4006DE77C /* AppDelegate.swift */,
 				4F03EC2425A7F9C4006DE77C /* SceneDelegate.swift */,
-				4F03EC2625A7F9C4006DE77C /* ViewController.swift */,
 				4F03EC2B25A7F9C6006DE77C /* Assets.xcassets */,
 				4F03EC2D25A7F9C6006DE77C /* LaunchScreen.storyboard */,
 				4F03EC3025A7F9C6006DE77C /* Info.plist */,
 				4F6BD81025A9D3760000FA33 /* Main.storyboard */,
 			);
 			path = BoostCourse;
+			sourceTree = "<group>";
+		};
+		4F0A492425AD3A8700EB6C3D /* 01_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				4F03EC2625A7F9C4006DE77C /* ViewController.swift */,
+			);
+			path = 01_Practice;
+			sourceTree = "<group>";
+		};
+		4F0A492625AD469B00EB6C3D /* 05_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				4F0A492725AD474A00EB6C3D /* AlertViewController.swift */,
+				4F0A492A25AD558700EB6C3D /* NetworkingViewController.swift */,
+				4F0A492D25AD567100EB6C3D /* Student.swift */,
+				4F0A493025AD5FFD00EB6C3D /* requestNotification.swift */,
+			);
+			path = 05_Practice;
 			sourceTree = "<group>";
 		};
 		4F2F5A7A25AAC6BE00B255D9 /* 04_Practice */ = {
@@ -139,6 +171,8 @@
 				4F2F5A8425AAE03600B255D9 /* AsyncViewController.swift */,
 				4F2F5A8725AAE6AC00B255D9 /* ScrollViewController.swift */,
 				4F4017CD25ABE03700771526 /* CollectionViewController.swift */,
+				4F33102525ABF41D003FFA19 /* AlbumCollectionViewController.swift */,
+				4F33102825ABF4B5003FFA19 /* PhotoCollectionViewCell.swift */,
 			);
 			path = 04_Practice;
 			sourceTree = "<group>";
@@ -274,13 +308,17 @@
 				4FF06CBB25A94B6500856093 /* LoginViewController.swift in Sources */,
 				4F0463C125AA891500C06B4D /* HeroViewModel.swift in Sources */,
 				4FF06CE225A993CC00856093 /* FriendListViewController.swift in Sources */,
+				4F0A492B25AD558700EB6C3D /* NetworkingViewController.swift in Sources */,
 				4FF06CCE25A9703500856093 /* SampleTableViewController.swift in Sources */,
 				4F0463C725AA965A00C06B4D /* WeatherViewModel.swift in Sources */,
 				4FF06CD425A9830B00856093 /* CellDetailViewController.swift in Sources */,
+				4F33102625ABF41D003FFA19 /* AlbumCollectionViewController.swift in Sources */,
+				4F33102925ABF4B5003FFA19 /* PhotoCollectionViewCell.swift in Sources */,
 				4F03EC2725A7F9C4006DE77C /* ViewController.swift in Sources */,
 				4FF06CC225A94C0400856093 /* SignupPlusViewController.swift in Sources */,
 				4F2F5A8525AAE03600B255D9 /* AsyncViewController.swift in Sources */,
 				4F6BD81F25A9DC240000FA33 /* CityCell.swift in Sources */,
+				4F0A492E25AD567100EB6C3D /* Student.swift in Sources */,
 				4FF06CBF25A94B7300856093 /* SignupBasicViewController.swift in Sources */,
 				4F0463BB25AA869000C06B4D /* HeroDetailViewController.swift in Sources */,
 				4FF06CC625A9541800856093 /* UserInfo.swift in Sources */,
@@ -296,7 +334,9 @@
 				4FF06CD725A98B3000856093 /* JSONEncodeDecode.swift in Sources */,
 				4F6BD80A25A9CD8D0000FA33 /* Model.swift in Sources */,
 				4F0463C425AA919300C06B4D /* CityDetailViewController.swift in Sources */,
+				4F0A492825AD474A00EB6C3D /* AlertViewController.swift in Sources */,
 				4F03EC2525A7F9C4006DE77C /* SceneDelegate.swift in Sources */,
+				4F0A493125AD5FFD00EB6C3D /* requestNotification.swift in Sources */,
 				4F1F01B225A850C900186C4F /* MainViewController.swift in Sources */,
 				4F6BD81525A9D4FC0000FA33 /* CountryCell.swift in Sources */,
 				4F2F5A8025AAC83D00B255D9 /* PhotoViewController.swift in Sources */,
